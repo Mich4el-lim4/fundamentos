@@ -1,1 +1,0 @@
-const meuNumero = 1;
