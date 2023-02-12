@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha(){
+		document.write("<br>");
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+    function calculaImc(peso, altura){
+        var imc = peso / (altura * altura);
+        mostra("O imc calcilado é " + imc);
+    }
+
+    var pesoMichael = 63;
+    var alturaMichael = 1.75;
+    calculaImc(pesoMichael, alturaMichael);
+
+    var pesoAlex = 70;
+    var alturaAlex = 1.74;
+    calculaImc(pesoAlex, pesoAlex);
+
+</script>
