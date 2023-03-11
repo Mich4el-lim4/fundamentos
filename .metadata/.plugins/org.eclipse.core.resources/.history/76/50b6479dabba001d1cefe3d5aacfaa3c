@@ -1,0 +1,9 @@
+
+public class Ringue {
+
+	public static void main(String[] args) {
+		Lutador l1 = new Lutador("Pretty Boy", "França", 31, 11, 2, 1, 1.75, 68.9);
+
+	}
+
+}

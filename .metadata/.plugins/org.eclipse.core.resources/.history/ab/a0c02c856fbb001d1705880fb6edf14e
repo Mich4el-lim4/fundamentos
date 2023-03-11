@@ -1,0 +1,13 @@
+
+public class Livro {
+ private String titulo;
+ private String autor;
+ private int totalPaginas;
+ private int paginaAtual;
+ private boolean aberto;
+ private Pessoa leitor;
+ 
+ public void detalhes() {
+	 
+ }
+}

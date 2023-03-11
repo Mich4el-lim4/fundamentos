@@ -1,0 +1,10 @@
+
+public class Conta {
+
+	private int numConta;
+	private String tipo;
+	private String nome;
+	private double saldo;
+	private boolean status;
+	
+}

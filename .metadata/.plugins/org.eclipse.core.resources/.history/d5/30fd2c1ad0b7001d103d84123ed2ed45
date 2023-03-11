@@ -1,0 +1,12 @@
+
+public class Teste {
+
+	public static void main(String[] args) {
+		Conta conta1 = new Conta();
+		conta1.setNumConta(1111);
+		conta1.setNome("Michael");
+		conta1.estadoAtual();
+
+	}
+
+}

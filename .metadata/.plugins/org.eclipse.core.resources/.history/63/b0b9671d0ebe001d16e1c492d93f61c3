@@ -1,0 +1,11 @@
+public class Conta {
+	double saldo;
+	int agencia;
+	int numeroConta;
+	String titular;
+	
+	public void deposita(double valor){
+		saldo = saldo + valor;
+		System.out.println("Transferenci comcluida");
+	}
+}

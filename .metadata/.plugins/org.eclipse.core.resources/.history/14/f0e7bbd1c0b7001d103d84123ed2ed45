@@ -1,0 +1,26 @@
+
+public class Caneta {
+	
+	String modelo;
+	String cor;
+	float ponta;
+	int carga;
+	boolean tampa;
+	
+	void escrver() {
+		if(this.tampa == this.destanpar()) {
+			System.out.println("Escrevendo");
+		} else if(this.tampa == this.destanpar()) {
+			System.out.println("Caneta tampada");
+		}
+	}
+	
+	public boolean tampar() {
+		return this.tampa = true;
+	}
+	
+	public boolean destanpar() {
+		return this.tampa = false;
+	}
+	
+}

@@ -1,0 +1,14 @@
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Caneta caneta = new Caneta();
+		
+		caneta.tampa(false);
+		
+		caneta.escrver();
+
+	}
+
+}

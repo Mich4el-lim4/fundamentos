@@ -1,0 +1,21 @@
+public class Conta {
+	double saldo;
+	int agencia;
+	int numeroConta;
+	String titular;
+	
+	public void deposita(double valor){
+		this.saldo = this.saldo + valor;
+		System.out.println("Transferenci comcluida");
+	}
+	
+	public boolean saca(double valor){
+		if(this.saldo >= valor) {
+			this.saldo = this.saldo - valor;
+			System.out.println("Saque de " + valor + " realizado com sucesso");
+			return true;
+		} else {
+			return false;
+		}
+	}
+}
